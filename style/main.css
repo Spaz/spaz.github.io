@@ -1,0 +1,41 @@
+body {
+    background-color: #00b080;
+}
+
+.container {
+
+}
+
+.grid-container {
+    float: left;
+}
+
+.grid-row {
+    
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.player-one {
+    content:url(http://bookriotcom.c.presscdn.com/wp-content/uploads/2013/07/x.png) no-repeat center center;
+    height:75%;
+    width:75%;
+}
+
+.player-two {
+    content:url(http://www.iconsdb.com/icons/download/black/circle-outline-512.png) no-repeat center center;
+    height:75%;
+    width:75%;
+}
+
+.grid-cell {
+    
+    border:1px solid #a1a1a1;
+    padding:25px 25px; 
+    background:#dddddd;
+    width: 75px;
+    height: 75px;
+    border-radius:25px;
+}
