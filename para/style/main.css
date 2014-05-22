@@ -2,11 +2,32 @@ body {
     background-color: #00b080;
 }
 
-.container {
+.player-score {
+    border:1px solid #a1a1a1;
+    padding:5px 5px; 
+    background:#dddddd;
+    width: 25px;
+    height: 25px;
+    border-radius:5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px; 
+}
 
+.player-one-score {
+    background-color: #b04040;
+}
+
+.player-two-score {
+    background-color: #0080b0;
+}
+
+.container {
+    
 }
 
 .grid-container {
+    padding:10px 10px; 
     float: left;
 }
 
@@ -32,10 +53,18 @@ body {
 
 .grid-cell {
     
+/*
     border:1px solid #a1a1a1;
     padding:25px 25px; 
     background:#dddddd;
     width: 75px;
     height: 75px;
     border-radius:25px;
+*/
+    border:1px solid #a1a1a1;
+    padding:10px 10px; 
+    background:#dddddd;
+    width: 40px;
+    height: 40px;
+    border-radius:10px;
 }
