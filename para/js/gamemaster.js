@@ -16,14 +16,15 @@ playerTwoScore = 0;
 
 var games = [];
 
-function addGame(gameType) {
-    var id = games.length;
+function addGame(gameType, id) {
+//    var id = games.length;
     if (gameType == GameEnum.TIC_TAC_TOE) {
         games.push(new ticTacToe(id));
+        console.log("ttt");
     } else if (gameType == GameEnum.CONNECT_FOUR) {
         games.push(new connectFour(id));
+        console.log("c4");
     }
-    games.push(new ticTacToe(games.length));
 }
 
 function getTicTacToeDiv(ttt) {
